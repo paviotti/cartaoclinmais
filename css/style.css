@@ -1,0 +1,89 @@
+header {
+    /* background-color: #0095e5; */
+    /* #0c6283  verde clim mais*/
+    background-color: #0c6283;
+    color: white;
+    /* #019a97 verde claro clim mais */
+}
+
+nav {
+    /* background-color: #019a97; */
+}
+
+#menuNavbar {
+    background-color: #019a97;
+    color: #0c6283;
+}
+
+#menuNavbar a {
+    color: white;
+}
+
+.color-1 {
+    background-color: #0c6283;
+    color: white;
+}
+.color-2{
+    background-color: #019a97;
+}
+
+.color-3{
+    color: black;
+}
+#save {
+    background-color: #0c6283;
+    color: white;
+}
+
+.call-us {
+    background-color: #019a97;
+    color: black;
+}
+
+.btn-call {
+    background-color: #0c6283;
+    color: white;
+}
+
+#specialties {
+    /* background-color: aquamarine; */
+    /* width: 50% !important; */
+    /* height: 700px !important; */
+}
+
+#exams {
+    /* background-color: rgb(64, 67, 197); */
+    /* width: 50% !important; */
+    /* height: 700px !important; */
+}
+
+.convenios_especialidades {
+    /* este que sestá atuando */
+    /* width: 100% !important; */
+    /* height: 700px !important; */
+
+}
+
+.especialidades {
+    /* width: 100% !important; */
+    /* height: 700px !important */
+}
+
+.specialties-exams {
+    /* width: 100% !important; */
+    /* height: 700px !important */
+    /* background-color: #019a97; */
+    background-color: #0c6283;
+    color: white;
+}
+
+#about-us {
+    /* background-color: #019a97; */
+}
+
+#discount {
+    /* background-color: #0c6283; */
+}
+ul.a {
+    list-style-type: circle;
+}

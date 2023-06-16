@@ -1,0 +1,119 @@
+.fixed-top {
+    background-color: #0095e5;
+    color: black;
+    padding: 5px;
+    /* border: 1px solid black; */
+    height: 15vh;
+}
+#cabecalho{
+    color: black;
+    /* padding: 5px; */
+    background-color:#0095e5;
+    height: 10vh;
+}
+
+nav img {
+    border-radius: 50%;
+}
+
+/* determina o tamanho da div row */
+header .row {
+    /* border: 5px solid black; */
+    /* height: 100px; */
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+header div :nth-child(1) {
+    /* background-color:blueviolet; */
+    /* border: 2px solid black; */
+    /* color: wheat; */
+    /* color: blue; */
+    font-size: 30px;
+
+}
+
+.telefone i {
+    color: black;
+
+    /* border: 2px solid red; */
+}
+
+/* .fixed-top nav{
+    border: solid 3px gold;
+} */
+
+.topo {
+    height: 13vh;
+}
+
+.conteudo {
+    height: 70vh;
+    /* border: solid 1px black; */
+    /* background-color: cadetblue; */
+
+}
+
+/* .conteudo img {
+    border: solid 1px black;
+} */
+
+.convenios {
+    /* height: 900px; */
+    background-color: #0095e5;
+}
+
+.convenios_especialidades {
+    width: 100% !important;
+    height: 700px !important;
+}
+
+.divulgacao {
+    height: 600px;
+    /* border: 1px solid red; */
+    /* background-color: aquamarine; */
+    /* width: 100%; */
+    height: 100%;
+}
+
+.divulgacao div:nth-child(1) {
+    height: 90px;
+}
+
+.divulgacao div:nth-child(2) {
+    /* border: 5px solid rebeccapurple; */
+    /* max-height: 300px; */
+    max-width: 300px;
+}
+
+/* .divulgacao div:nth-child(3) {
+    border: 5px solid rgb(218, 100, 22);
+} */
+
+/* .divulgacao div:nth-child(4) {
+    border: 5px solid rgb(12, 77, 3);
+} */
+/* h1{
+    border: 2px solid black;
+} */
+
+.divulgacao div:nth-child(5) {
+    /* border: 2px solid black; */
+    font-weight: bold;
+
+}
+/* div{
+    border: solid 3px blue;
+} */
+
+span {
+    font-weight: bold;
+}
+
+footer {
+    height: 15vh;
+}
+
+.especialidades_convenios {
+    background-color: #0095e5;
+}

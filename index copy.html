@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- <script src="js/especialidades.js" defer></script> -->
+    <title>Bem vindo ao cartão CLIN+</title>
+</head>
+
+<body>
+    <main class="">
+        <!-- <div class="container" id="c01"> -->
+
+            <!-- o logo e o menu fica fixo no tipo -->
+            <div class="row fixed-top">
+
+                <header class="col-6 d-flex">
+                    <!-- justify distribui na horizontal dentro do espaço row-->
+                    <!-- align distribui na vertical dentro do espaço row -->
+                    <div class="row ">
+                        <div class="col text-center align-self-center telefone">
+                            <i class="bi bi-telephone me-2"></i><i class="bi bi-whatsapp"></i>
+                            (19)3492-3464
+                        </div>
+                        <div class="col text-center align-self-center endereco fs-5">Alameda Faustina Franchi
+                            Annicchino 79
+                        </div>
+                    </div>
+                </header>
+                <!-- menu -->
+                <!-- navbar-dark inverte as cores -->
+                <nav class="col-6 d-flex navbar navbar-expand-sm py-3">
+                    <div class="container">
+                        <a href="index.html" class="navbar-brand d-flex align-items-center">
+                            <!-- <img class="fs-1 bi-mouse2-fill" src="image/logo_clin_mais.jpg" alt="" sizes="" srcset=""
+                            width="60px"></a> -->
+                            <!-- botão para quando a tela diminuir -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#menuNavBar"><span class="navbar-toggler-icon"></span></button>
+                            <div class="collapse navbar-collapse" id="menuNavBar">
+                                <div class="navbar-nav me-auto fs-4">
+                                    <a href="https://app.higestor.com.br/inscricao/associado/mjv-clinica-medica-ltda-93d8c0a3-69b2-4981-967b-edb879464a05"
+                                        class="nav-link">Contratar</a>
+                                    <a href="#" class="nav-link">Saber mais</a>
+                                    <a href="#especialidades" class="nav-link">Especialdades</a>
+                                    <a href="#especialidades" class="nav-link">Exames</a>
+                                    <a href="#" class="nav-link">Sobre</a>
+                                </div>
+                            </div>
+                    </div>
+
+                </nav>
+
+
+            </div>
+        <!-- </div> -->
+        <!-- a div topo permite que o texto não esconda atrás do menu -->
+        <div class="invisible topo mt-3"></div>
+        <!-- align-items-center é vertical,  -->
+        <!-- justify-content-center alinha na horizontal -->
+        <!-- conteudo d-flex align-items-center -->
+
+        <div class="container conteudo p-3 pb-5 mt-sm-3 ">
+
+            <div class="divulgacao row d-flex justify-content-between">
+                <div class="col-12 d-flex justify-content-center">
+                    <h1 class="pt-5">Pague apenas de R$50,00 a R$100,00 nas consultas médicas?</h1>
+                </div>
+                <div class="col-2 d-lg-flex d-sm-none  align-self-center">
+                    <img class="img-fluid" src="image/logo_clin_mais.jpg" alt="logo clin mais" sizes="" srcset="">
+                </div>
+                <!-- d-flex align-items-center justify-content-center -->
+                <!-- <div class="col-1  d-flex align-self-center justify-content-center">
+
+                </div> -->
+                <!-- d-flex justify-content-center -->
+                <div class="col d-flex align-self-center justify-content-center p-5">
+                    <img class="img-fluid" src="image/medico.png" alt="figura de um médico" width="250px">
+                    <h2 class="align-self-center text-center">Com apenas R$20,00 por mês você economiza nas consultas e
+                        exames conveniados do cartão <span>Clin Mais</span> clique agora no botão ao lado e contrate.
+                    </h2>
+                </div>
+                <!-- d-flex justify-content-center -->
+                <div class="col-2 d-block align-self-center justify-content-center">
+
+                    <i class="bi bi-telephone ms-5 fs-2 fw-bold"></i>
+                    <i class="bi bi-whatsapp fs-2 fw-bold ms-2"></i>
+                    <p class="fs-3 fw-bold">(19)3492-3464</p>
+
+                    <a href="https://app.higestor.com.br/inscricao/associado/mjv-clinica-medica-ltda-93d8c0a3-69b2-4981-967b-edb879464a05"
+                        class="btn btn-lg btn-primary m-1">Contratar cartão</a>
+                    <a href="#" class="btn btn-lg btn-primary m-1">Consultar dados</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- convenios e especialiddes -->
+        <div class="container ">
+            <iframe class="convenios_especialidades id=" especialidades" src="convenios_e_especialidades.html"
+                frameborder="0">
+            </iframe>
+
+        </div>
+
+        <!-- footer -->
+        <footer class="p-4 bg-dark text-light text-center fs-5">
+            <p>Todos os direitos reservados.</p>
+            <p>Endereço: Alameda Faustina Franchi Annicchino 79 </p>
+
+        </footer>
+    </main>
+</body>
+
+</html>
