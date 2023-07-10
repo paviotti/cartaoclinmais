@@ -1,89 +1,96 @@
 header {
-    /* background-color: #0095e5; */
-    /* #0c6283  verde clim mais*/
-    background-color: #0c6283;
-    color: white;
-    /* #019a97 verde claro clim mais */
+  /* background-color: #0095e5; */
+  /* #0c6283  verde clim mais*/
+  background-color: #0c6283;
+  color: white;
+  /* #019a97 verde claro clim mais */
 }
 
 nav {
-    /* background-color: #019a97; */
+  /* background-color: #019a97; */
 }
 
 #menuNavbar {
-    background-color: #019a97;
-    color: #0c6283;
+  background-color: #019a97;
+  color: #0c6283;
 }
 
 #menuNavbar a {
-    color: white;
+  color: white;
 }
 
 .color-1 {
-    background-color: #0c6283;
-    color: white;
+  background-color: #0c6283;
+  color: white;
 }
-.color-2{
-    background-color: #019a97;
+.color-2 {
+  background-color: #019a97;
 }
 
-.color-3{
-    color: black;
+.color-3 {
+  color: black;
+}
+.color-4{
+  background-color:  #0c6283;
+  color: white;
 }
 #save {
-    background-color: #0c6283;
-    color: white;
+  background-color: #0c6283;
+  color: white;
 }
 
 .call-us {
-    background-color: #019a97;
-    color: black;
+  background-color: #019a97;
+  color: white;
 }
 
 .btn-call {
-    background-color: #0c6283;
-    color: white;
+  background-color: #0c6283;
+  color: white;
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+}
 #specialties {
-    /* background-color: aquamarine; */
-    /* width: 50% !important; */
-    /* height: 700px !important; */
+  /* background-color: aquamarine; */
+  /* width: 50% !important; */
+  /* height: 700px !important; */
 }
 
 #exams {
-    /* background-color: rgb(64, 67, 197); */
-    /* width: 50% !important; */
-    /* height: 700px !important; */
+  /* background-color: rgb(64, 67, 197); */
+  /* width: 50% !important; */
+  /* height: 700px !important; */
 }
 
 .convenios_especialidades {
-    /* este que sestá atuando */
-    /* width: 100% !important; */
-    /* height: 700px !important; */
-
+  /* este que sestá atuando */
+  /* width: 100% !important; */
+  /* height: 700px !important; */
 }
 
 .especialidades {
-    /* width: 100% !important; */
-    /* height: 700px !important */
+  /* width: 100% !important; */
+  /* height: 700px !important */
 }
 
 .specialties-exams {
-    /* width: 100% !important; */
-    /* height: 700px !important */
-    /* background-color: #019a97; */
-    background-color: #0c6283;
-    color: white;
+  /* width: 100% !important; */
+  /* height: 700px !important */
+  /* background-color: #019a97; */
+  background-color: #0c6283;
+  color: white;
 }
 
 #about-us {
-    /* background-color: #019a97; */
+  /* background-color: #019a97; */
 }
 
 #discount {
-    /* background-color: #0c6283; */
+  /* background-color: #0c6283; */
 }
 ul.a {
-    list-style-type: circle;
+  list-style-type: circle;
 }
